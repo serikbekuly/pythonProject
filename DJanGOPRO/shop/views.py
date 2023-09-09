@@ -10,3 +10,6 @@ def go(request):
 
 def domashka(request):
     return HttpResponse("Domashka Vypolnena?")
+
+def shop(request):
+    return render(request, 'shop/shop.html')
